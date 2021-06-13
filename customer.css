@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #00adb5;
+}
+
+.bg-light{
+    background-color: #eeeeee!important;
+}
+
+.navbar-brand{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight:300;
+    color: #5f6368!important;
+}
+
+.nav-link{
+    color: #393e46!important;
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+}
+
+.nav-link:hover{
+    color: #222831;
+}
+
+
+.my-info{
+    padding: 2rem 5rem;
+}
+.table-hover tbody tr.light:hover {
+    background-color: #eeeeee;
+}
+.table-hover tbody tr.danger:hover {
+    background-color: #222831;
+}
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: #393e46!important;
+    color: #eeeeee!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: #222831!important;
+    color: #eeeeee;
+}
+tr.danger{
+background-color:#222831;
+color:#eeeeee;
+}
+tr.light{
+background-color:#eeeeee;
+color:#222831;
+}

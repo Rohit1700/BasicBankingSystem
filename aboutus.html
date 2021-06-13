@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Banking System</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body onload="loader()">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Ease Transfer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">AboutUs</a>
+            </li>
+			 <li class="nav-item">
+              <a class="nav-link" href="customer.html">Customers</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div class="about-section">
+        <div class="row">
+            <div class=" about inner-container col-md-6 col-sm-12" data-aos="fade-right">
+                <h1 class = "heading">About Us</h1>
+                <p class="text">
+                Bank is the place where customers feel the sense of safety for their property.
+                In the bank, customers deposit and withdraw their money.
+                Transaction of money is main part where customer takes shelter of the bank.<br>
+                Now to keep the belief and trust of customers, there is the positive need for management of the bank, which can handle all this with comfort and ease.
+                Smooth and efficient management affects the satisfaction of the customers indirectly.
+                And of course, it encourages management committee in taking some needed decision for future enhancement of the bank.<br>
+                Now a days, managing a bank is tedious job upto certain limit.
+                So software that reduces the work is essential.
+                Also today's world is a genuine computer world and is getting faster and faster day-by-day.
+                Thus, considering above necessities, the software for bank management has became necessary which would be useful in managing the bank more efficiently.
+                </p>
+            </div>
+            <div class="about hero-img-div col-md-6 col-sm-12" data-aos="fade-down">
+                <img class="hero-img" src="debit-card.png" alt="img-showing-money-transfer">
+            </div>
+        </div>
+    </div>
+    
+	<script>
+        var preloader = document.getElementById("loading");
+        function loader(){
+          preloader.style.display = 'none';
+        }
+      </script>
+      
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          duration: 700,
+        });
+      </script>
+      
+  </body>
+  </html>
